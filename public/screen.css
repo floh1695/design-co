@@ -7,3 +7,59 @@ body {
   min-height: 100%;
   font: 16px / 1 sans-serif;
 }
+
+nav {
+  display: flex;
+  justify-content: space-between;
+  background-color: lightgrey;
+  padding: 1em;
+}
+
+nav > img {
+  height: 1em;
+}
+
+header {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+}
+
+.gallary {
+  display: flex;
+  flex-wrap: wrap;
+  text-align: center;
+  margin: 5em;
+  width: 90%;
+}
+
+.gallary > span > img {
+  width: 34%;
+  margin: 1em;
+}
+
+footer {
+  display: flex;
+  width: 100%;
+  background-color: lightgrey;
+}
+
+.new-content {
+  width: 25%;
+  margin: 1em;
+}
+
+.details {
+  width: 75%;
+  margin: 1em;
+}
+
+.details > section {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+
+.details > section > p {
+  margin: 0em 2em;
+}
